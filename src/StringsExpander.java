@@ -16,9 +16,6 @@ public class StringsExpander {
         List<String> shapeOfCompressingList = separateToListByOneUnitOfCompressing(
                 str);
 
-        for (String shapeOfCompressing : shapeOfCompressingList) {
-            System.out.println(shapeOfCompressing);
-        }
         return convertToFinalShapeForExpanding(shapeOfCompressingList);
     }
 
@@ -45,7 +42,6 @@ public class StringsExpander {
                     str = leftOvers;
                     break;
                 }
-
             }
         }
 
